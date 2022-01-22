@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1:#C8ADC0;
+    --cor2: #B8336A;
+    --cor3: #424B54;
+    --cor4: #D3EFBD;
+    --cor5: #4FB286;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-titulo: 'Love Light', 'cursive';
+    --fonte-letras: 'Loved by the King', 'cursive';
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+}
+
+body{
+    background-image: linear-gradient(to bottom, var(--cor5),var(--cor3));
+    font-family: var(--fonte-padrao);
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    min-height: 100px;
+    text-align: center;
+}
+header h1{
+    font-family: var(--fonte-titulo);
+    font-size: 3em;
+    color: white;
+    padding-top: 15px;
+}
+main{
+    margin: auto;
+    max-width: 850px;
+    min-width: 320px;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+article h2{
+    font-family: var(--fonte-letras);
+    font-size: 2.3em;
+    color: var(--cor3);
+}
+article p{
+    color: black;
+    text-indent: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+article > section.fotos {
+    background-image: linear-gradient(to bottom, var(--cor1),var(--cor2));
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.438);
+    margin-bottom: 20px;
+}
+article img {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+aside {
+    border-radius: 10px;
+    background-image: linear-gradient(to right, var(--cor1), var(--cor5));
+    padding: 5px 15px;
+    border-radius: 0px 45px 0px 25px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.288);
+}
+aside h3 {
+    font-family: var(--fonte-destaque);
+    font-size: 2.5em;
+}
+aside p {
+    text-align: justify;
+    padding-bottom: 5px;
+}
+aside a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+aside a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+footer p {
+    color: white;
+    font-weight: bold;
+}
