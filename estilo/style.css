@@ -41,7 +41,7 @@ header h1{
 main{
     margin: auto;
     max-width: 850px;
-    min-width: 320px;
+    min-width: 300px;
     background-color: white;
     padding-left: 15px;
     padding-right: 15px;
@@ -67,9 +67,10 @@ article > section.fotos {
     margin-bottom: 20px;
 }
 article img {
+    width: 100%;
     display: block;
     margin: auto;
-    max-width: 350px;
+    max-width: 450px;
     margin-bottom: 20px;
 }
 aside {
