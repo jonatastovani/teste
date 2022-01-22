@@ -24,7 +24,7 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, var(--cor5),var(--cor3));
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5),var(--cor3));
     font-family: var(--fonte-padrao);
 }
 header{
